@@ -1,0 +1,73 @@
+form {
+  height: 150px;
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+  width: 200px;
+  height: 100%;
+  margin: auto;
+}
+
+.fields input {
+  font-size: 20px;
+  padding: 5px;
+  background-color: #03506f;
+  color: #fff;
+}
+
+.fields input::placeholder {
+  color: #fff;
+}
+
+#register {
+  background-color: white;
+  text-decoration: none;
+}
+
+#register:hover {
+  color: blue;
+}
+
+#log-in-title {
+  font-size: 50px;
+  margin-top: 50px;
+}
+
+#whoDiv {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  column-gap: 15px;
+  align-items: center;
+}
+
+#login-div button {
+  font-size: 20px;
+  cursor: pointer;
+  align-self: center;
+  padding: 5px;
+  outline: none;
+  transition-property: all;
+  transition-duration: 0.4s;
+}
+
+#login-div button:hover {
+  background-color: #0a043c;
+  color: #fff;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
